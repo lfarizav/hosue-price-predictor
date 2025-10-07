@@ -181,8 +181,25 @@ To track experiments and model runs:
 
 ```bash
 cd deployment/mlflow
-docker compose -f mlflow-docker-compose.yml up -d
+docker compose up -d
+WARN[0000] /home/luis/hosue-price-predictor/deployment/mlflow/docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[+] Running 6/6
+ ✔ mlflow Pulled                                                                                                                                                                                      19.3s 
+   ✔ ccaf924377f9 Pull complete                                                                                                                                                                        3.6s 
+   ✔ 5e584f8f28c3 Pull complete                                                                                                                                                                        3.7s 
+   ✔ 954774345a61 Pull complete                                                                                                                                                                        4.1s 
+   ✔ 7360b233c860 Pull complete                                                                                                                                                                        4.1s 
+   ✔ 0e9ec008394e Pull complete                                                                                                                                                                       12.9s 
+[+] Running 2/2
+ ✔ Network mlflow_default            Created                                                                                                                                                           0.0s 
+ ✔ Container mlflow-tracking-server  Started                                                                                                                                                           0.6s 
+WARN[0000] /home/luis/hosue-price-predictor/deployment/mlflow/docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+
 docker compose ps
+WARN[0000] /home/luis/hosue-price-predictor/deployment/mlflow/docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+NAME                     IMAGE                          COMMAND                  SERVICE   CREATED          STATUS          PORTS
+mlflow-tracking-server   ghcr.io/mlflow/mlflow:latest   "mlflow server --hos…"   mlflow    32 seconds ago   Up 31 seconds   0.0.0.0:5555->5000/tcp, [::]:5555->5000/tcp
+
 ```
 
 > 🐧 **Using Podman?** Use this instead:
