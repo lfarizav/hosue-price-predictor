@@ -59,7 +59,15 @@ To begin, ensure the following tools are installed on your system:
    uv venv --python python3.11
    source .venv/bin/activate
    ```
-
+   ```
+   luis@lfarizav:~/hosue-price-predictor$ uv venv --python python3.11
+   source .venv/bin/activate
+   Using CPython 3.11.13
+   Creating virtual environment at: .venv
+   Activate with: source .venv/bin/activate
+   (hosue-price-predictor) luis@lfarizav:~/hosue-price-predictor$ ls
+   data  deployment  LICENSE  models  notebooks  README.md  requirements.txt  src  streamlit_app
+   ```
 4. **Install dependencies:**
 
    ```bash
