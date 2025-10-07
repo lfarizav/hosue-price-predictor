@@ -201,9 +201,60 @@ Access the MLflow UI at [http://localhost:5555](http://localhost:5555)
 If you prefer an interactive experience, launch JupyterLab with:
 
 ```bash
-uv python -m jupyterlab
-# or
-python -m jupyterlab
+   (hosue-price-predictor) luis@lfarizav:~/hosue-price-predictor$ uv pip install jupyterlab
+   Resolved 93 packages in 289ms
+   Prepared 50 packages in 945ms
+   Installed 50 packages in 68ms
+ + argon2-cffi==25.1.0
+ + argon2-cffi-bindings==25.1.0
+ + arrow==1.3.0
+ + async-lru==2.0.5
+ + attrs==25.4.0
+ + babel==2.17.0
+ + beautifulsoup4==4.14.2
+ + bleach==6.2.0
+ + cffi==2.0.0
+ + defusedxml==0.7.1
+ + fastjsonschema==2.21.2
+ + fqdn==1.5.1
+ + httpcore==1.0.9
+ + httpx==0.28.1
+ + isoduration==20.11.0
+ + json5==0.12.1
+ + jsonpointer==3.0.0
+ + jsonschema==4.25.1
+ + jsonschema-specifications==2025.9.1
+ + jupyter-events==0.12.0
+ + jupyter-lsp==2.3.0
+ + jupyter-server==2.17.0
+ + jupyter-server-terminals==0.5.3
+ + jupyterlab==4.4.9
+ + jupyterlab-pygments==0.3.0
+ + jupyterlab-server==2.27.3
+ + lark==1.3.0
+ + mistune==3.1.4
+ + nbclient==0.10.2
+ + nbconvert==7.16.6
+ + nbformat==5.10.4
+ + notebook-shim==0.2.4
+ + overrides==7.7.0
+ + pandocfilters==1.5.1
+ + prometheus-client==0.23.1
+ + pycparser==2.23
+ + python-json-logger==4.0.0
+ + referencing==0.36.2
+ + rfc3339-validator==0.1.4
+ + rfc3986-validator==0.1.1
+ + rfc3987-syntax==1.1.0
+ + rpds-py==0.27.1
+ + send2trash==1.8.3
+ + soupsieve==2.8
+ + terminado==0.18.1
+ + tinycss2==1.4.0
+ + types-python-dateutil==2.9.0.20250822
+ + uri-template==1.3.0
+ + webcolors==24.11.1
+ + webencodings==0.5.1
 ```
 
 ---
