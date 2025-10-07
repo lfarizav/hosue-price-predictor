@@ -265,7 +265,34 @@ If you prefer an interactive experience, launch JupyterLab with:
  + webcolors==24.11.1
  + webencodings==0.5.1
 ```
+```bash
+(hosue-price-predictor) luis@lfarizav:~/hosue-price-predictor$ python -m jupyterlab
+[I 2025-10-07 12:29:42.459 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-10-07 12:29:42.462 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-10-07 12:29:42.465 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-10-07 12:29:42.648 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-10-07 12:29:42.660 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-10-07 12:29:42.662 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-10-07 12:29:42.663 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-10-07 12:29:42.664 LabApp] JupyterLab extension loaded from /home/luis/hosue-price-predictor/.venv/lib/python3.11/site-packages/jupyterlab
+[I 2025-10-07 12:29:42.664 LabApp] JupyterLab application directory is /home/luis/hosue-price-predictor/.venv/share/jupyter/lab
+[I 2025-10-07 12:29:42.665 LabApp] Extension Manager is 'pypi'.
+[I 2025-10-07 12:29:42.687 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-10-07 12:29:42.688 ServerApp] Serving notebooks from local directory: /home/luis/hosue-price-predictor
+[I 2025-10-07 12:29:42.688 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2025-10-07 12:29:42.688 ServerApp] http://localhost:8888/lab?token=481eca176a7f5873022843ccff369ea70cf9e5a2c54a29b7
+[I 2025-10-07 12:29:42.688 ServerApp]     http://127.0.0.1:8888/lab?token=481eca176a7f5873022843ccff369ea70cf9e5a2c54a29b7
+[I 2025-10-07 12:29:42.688 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 
+...
+...
+Shut down this Jupyter server (y/[n])? y
+[C 2025-10-07 12:32:03.305 ServerApp] Shutdown confirmed
+[I 2025-10-07 12:32:03.306 ServerApp] Shutting down 4 extensions
+[I 2025-10-07 12:32:03.307 ServerApp] Shutting down 1 kernel
+[I 2025-10-07 12:32:03.308 ServerApp] Kernel shutdown: 1bd3a2c7-e086-4f67-8704-4c6fc107aabb
+
+```
 ---
 
 ## 🔁 Model Workflow
