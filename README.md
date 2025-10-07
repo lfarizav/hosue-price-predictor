@@ -33,7 +33,7 @@ house-price-predictor/
 
 To begin, ensure the following tools are installed on your system:
 
-- [Python 3.11](https://www.python.org/downloads/)
+- [Python 3.11.13](https://www.python.org/downloads/)
 - [Git](https://git-scm.com/)
 - [Visual Studio Code](https://code.visualstudio.com/) or your preferred editor
 - [UV – Python package and environment manager](https://github.com/astral-sh/uv)
@@ -50,7 +50,7 @@ To begin, ensure the following tools are installed on your system:
    ```bash
    # Replace xxxxxx with your GitHub username or org
    git clone https://github.com/lfarizav/hosue-price-predictor.git
-   cd house-price-predictor
+   cd hosue-price-predictor
    ```
 
 3. **Setup Python Virtual Environment using UV:**
