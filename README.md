@@ -49,7 +49,7 @@ To begin, ensure the following tools are installed on your system:
 
    ```bash
    # Replace xxxxxx with your GitHub username or org
-   git clone https://github.com/xxxxxx/house-price-predictor.git
+   git clone https://github.com/lfarizav/hosue-price-predictor.git
    cd house-price-predictor
    ```
 
