@@ -283,7 +283,6 @@ If you prefer an interactive experience, launch JupyterLab with:
 [I 2025-10-07 12:29:42.688 ServerApp] http://localhost:8888/lab?token=481eca176a7f5873022843ccff369ea70cf9e5a2c54a29b7
 [I 2025-10-07 12:29:42.688 ServerApp]     http://127.0.0.1:8888/lab?token=481eca176a7f5873022843ccff369ea70cf9e5a2c54a29b7
 [I 2025-10-07 12:29:42.688 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-
 ...
 ...
 Shut down this Jupyter server (y/[n])? y
@@ -291,7 +290,6 @@ Shut down this Jupyter server (y/[n])? y
 [I 2025-10-07 12:32:03.306 ServerApp] Shutting down 4 extensions
 [I 2025-10-07 12:32:03.307 ServerApp] Shutting down 1 kernel
 [I 2025-10-07 12:32:03.308 ServerApp] Kernel shutdown: 1bd3a2c7-e086-4f67-8704-4c6fc107aabb
-
 ```
 ---
 
