@@ -54,12 +54,7 @@ To begin, ensure the following tools are installed on your system:
    ```
 
 3. **Setup Python Virtual Environment using UV:**
-
    ```bash
-   uv venv --python python3.11
-   source .venv/bin/activate
-   ```
-   ```
    luis@lfarizav:~/hosue-price-predictor$ uv venv --python python3.11
    source .venv/bin/activate
    Using CPython 3.11.13
@@ -69,11 +64,7 @@ To begin, ensure the following tools are installed on your system:
    data  deployment  LICENSE  models  notebooks  README.md  requirements.txt  src  streamlit_app
    ```
 4. **Install dependencies:**
-
    ```bash
-   uv pip install -r requirements.txt
-   ```
-   ```
    (hosue-price-predictor) luis@lfarizav:~/hosue-price-predictor$ uv pip install -r requirements.txt
    Resolved 94 packages in 719ms
    Prepared 94 packages in 11.47s
@@ -172,7 +163,7 @@ To begin, ensure the following tools are installed on your system:
     + werkzeug==3.1.3
     + xgboost==1.7.5
     + zipp==3.23.0
-```
+   ```
 ---
 
 ## 📊 Setup MLflow for Experiment Tracking
@@ -194,7 +185,8 @@ WARN[0000] /home/luis/hosue-price-predictor/deployment/mlflow/docker-compose.yam
  ✔ Network mlflow_default            Created                                                                                                                                                           0.0s 
  ✔ Container mlflow-tracking-server  Started                                                                                                                                                           0.6s 
 WARN[0000] /home/luis/hosue-price-predictor/deployment/mlflow/docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
-
+```
+```bash
 docker compose ps
 WARN[0000] /home/luis/hosue-price-predictor/deployment/mlflow/docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
 NAME                     IMAGE                          COMMAND                  SERVICE   CREATED          STATUS          PORTS
