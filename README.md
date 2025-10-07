@@ -73,7 +73,106 @@ To begin, ensure the following tools are installed on your system:
    ```bash
    uv pip install -r requirements.txt
    ```
-
+   ```
+   (hosue-price-predictor) luis@lfarizav:~/hosue-price-predictor$ uv pip install -r requirements.txt
+   Resolved 94 packages in 719ms
+   Prepared 94 packages in 11.47s
+   Installed 94 packages in 39ms
+    + alembic==1.16.5
+    + anyio==4.11.0
+    + asttokens==3.0.0
+    + blinker==1.9.0
+    + certifi==2025.10.5
+    + charset-normalizer==3.4.3
+    + click==8.3.0
+    + cloudpickle==2.2.1
+    + comm==0.2.3
+    + contourpy==1.3.2
+    + cycler==0.12.1
+    + databricks-cli==0.18.0
+    + debugpy==1.8.17
+    + decorator==5.2.1
+    + docker==6.1.3
+    + entrypoints==0.4
+    + executing==2.2.1
+    + fastapi==0.95.2
+    + flask==2.3.3
+    + fonttools==4.60.1
+    + gitdb==4.0.12
+    + gitpython==3.1.45
+    + greenlet==3.2.4
+    + gunicorn==20.1.0
+    + h11==0.16.0
+    + idna==3.10
+    + importlib-metadata==6.11.0
+    + iniconfig==2.1.0
+    + ipykernel==6.29.5
+    + ipython==9.6.0
+    + ipython-pygments-lexers==1.1.1
+    + itsdangerous==2.2.0
+    + jedi==0.19.2
+    + jinja2==3.1.6
+    + joblib==1.3.1
+    + jupyter-client==8.6.3
+    + jupyter-core==5.8.1
+    + kiwisolver==1.4.9
+    + mako==1.3.10
+    + markdown==3.9
+    + markupsafe==3.0.3
+    + matplotlib==3.7.1
+    + matplotlib-inline==0.1.7
+    + mlflow==2.3.1
+    + nest-asyncio==1.6.0
+    + numpy==1.24.3
+    + oauthlib==3.3.1
+    + packaging==23.2
+    + pandas==1.5.3
+    + parso==0.8.5
+    + pexpect==4.9.0
+    + pillow==11.3.0
+    + platformdirs==4.4.0
+    + pluggy==1.6.0
+    + prompt-toolkit==3.0.52
+    + protobuf==4.25.8
+    + psutil==7.1.0
+    + ptyprocess==0.7.0
+    + pure-eval==0.2.3
+    + pyarrow==11.0.0
+    + pydantic==1.10.24
+    + pygments==2.19.2
+    + pyjwt==2.10.1
+    + pyparsing==3.2.5
+    + pytest==7.3.1
+    + python-dateutil==2.9.0.post0
+    + pytz==2023.4
+    + pyyaml==6.0
+    + pyzmq==27.1.0
+    + querystring-parser==1.2.4
+    + requests==2.32.5
+    + scikit-learn==1.2.2
+    + scipy==1.15.3
+    + seaborn==0.12.2
+    + setuptools==65.5.0
+    + six==1.17.0
+    + smmap==5.0.2
+    + sniffio==1.3.1
+    + sqlalchemy==2.0.43
+    + sqlparse==0.5.3
+    + stack-data==0.6.3
+    + starlette==0.27.0
+    + tabulate==0.9.0
+    + threadpoolctl==3.6.0
+    + tornado==6.5.2
+    + traitlets==5.14.3
+    + typing-extensions==4.15.0
+    + urllib3==2.5.0
+    + uvicorn==0.22.0
+    + wcwidth==0.2.14
+    + websocket-client==1.8.0
+    + werkzeug==3.1.3
+    + xgboost==1.7.5
+    + zipp==3.23.0
+```
 ---
 
 ## 📊 Setup MLflow for Experiment Tracking
