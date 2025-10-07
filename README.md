@@ -48,7 +48,6 @@ To begin, ensure the following tools are installed on your system:
 2. **Clone your forked copy:**
 
    ```bash
-   # Replace xxxxxx with your GitHub username or org
    git clone https://github.com/lfarizav/hosue-price-predictor.git
    cd hosue-price-predictor
    ```
