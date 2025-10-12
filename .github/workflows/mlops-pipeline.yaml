@@ -162,7 +162,7 @@ jobs:
        password: ${{ secrets.DOCKERHUB_TOKEN }}
    - name: Push Docker image to DockerHub
      run: |
-       COMMIT_HASH=$(echo $GITHUB_SHA | cut -c1-7)
+       COMMIT_HASH=$(echo ${{ github_sha }} | cut -c1-7)
        docker tag docker.io/${{ vars.DOCKERHUB_USERNAME }}/house-price-model:${COMMIT_HASH} docker.io/${{ vars.DOCKERHUB_USERNAME }}/house-price-model:latest
        docker push docker.io/${{ vars.DOCKERHUB_USERNAME }}/house-price-model:${COMMIT_HASH}
        docker push docker.io/${{ vars.DOCKERHUB_USERNAME }}/house-price-model:latest
