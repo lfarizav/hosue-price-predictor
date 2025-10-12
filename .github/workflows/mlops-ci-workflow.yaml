@@ -66,6 +66,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: lfarizav/fastapi:{{ github.sha }}
+          tags: lfarizav/fastapi:${{ github.sha }}
           context: .
           file: ./Dockerfile
