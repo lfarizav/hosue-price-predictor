@@ -79,7 +79,7 @@ with col2:
             
             try:
                 # Get API endpoint from environment variable or use default
-                api_endpoint = os.getenv("API_URL", "http://localhost:8000")
+                api_endpoint = os.getenv("API_URL", "http://model:8000")
                 predict_url = f"{api_endpoint.rstrip('/')}/predict"
                 
                 st.write(f"Connecting to API at: {predict_url}")
@@ -171,7 +171,7 @@ st.markdown("<hr>", unsafe_allow_html=True)  # Add a horizontal line for separat
 st.markdown(
     """
     <div style="text-align: center; color: gray; margin-top: 20px;">
-        <p><strong>Built for MLOps testing</strong></p>
+        <p><strong>Built with love for MLOps testing</strong></p>
         <p>by <a href="https://delaparlaalcluster.org" target="_blank">De la parla al cluster</a></p>
     </div>
     """,
